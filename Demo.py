@@ -148,7 +148,7 @@ while True:
     cv2.imshow('Mask R-CNN Real-time Object Detection', result)
     
     # Break the loop if 'q' is pressed
-    if cv2.waitKey(1) & 0xFF == ord('q'):
+    if cv2.waitKey(30) & 0xFF == ord('q'):
         break
 
 # Release resources
